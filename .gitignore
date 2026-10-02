@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+Converted/
+generated_passwords.txt
