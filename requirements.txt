@@ -1,0 +1,17 @@
+# Install what you need for the scripts you run. Standard-library-only scripts
+# (date_lapse_calculator, location_by_ip/location_lookup use geocoder) need nothing extra.
+
+# media/
+pillow            # heic_to_jpg, webp_to_jpg
+pyheif            # heic_to_jpg
+opencv-python     # video_splitter
+# ffmpeg is a system tool, install separately: brew install ffmpeg
+
+# office/
+python-docx       # clipboard_to_docx, pdf_to_docx, outlook_email_to_docx
+pdfminer.six      # pdf_to_docx
+docx2pdf          # word_to_pdf
+pyperclip         # clipboard_to_docx, clipboard_to_txt
+
+# utilities/
+geocoder          # location_lookup, location_by_ip
